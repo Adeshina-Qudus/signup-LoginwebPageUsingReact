@@ -1,16 +1,16 @@
 .wholePage{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    width: fit-content;
+    height : max-content;
 }
-input{
+.value{
     display: flex;
     flex-direction: column;
     margin: 3%;
     width: 400px;
-    background-color: rgba(255, 255, 255, 1);
-    color: rgba(196, 196, 196, 1);
+    /*background-color: rgba(255, 255, 255, 1);*/
+    /*color: rgba(196, 196, 196, 1);*/
     border: 2px solid;
     border-radius: 5px;
     height: 30px;
@@ -18,19 +18,29 @@ input{
 .already{
     display: flex;
     flex-direction: row;
-    gap: 195px;
-    margin-left: 12px;
+    gap: 180px;
+    margin-left: 16px;
 }
-.p{
+.already>p{
     font-family: Roboto, serif;
-    font-size: 23px;
-    font-weight: 400;
+    font-size: 18px;
+    font-weight: 370;
     line-height: 27px;
     text-align: center;
+    top: 10px;
 }
 .inputPage{
     text-align: center;
     justify-content: center;
-    /*margin-top: 2%;*/
+    margin-top: 7%;
     margin-bottom: 5%;
+    background-color: white;
+    width: 500px;
+    height: 78vh;
+}
+.fillBut{
+    margin-right: 11%;
+}
+.linking{
+    margin-top: 5%;
 }
